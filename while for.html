@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>JavaScript 迴圈</title>
+    </head>
+    <body>
+        <script>
+            //while 迴圈
+            let n=0;
+            while(n<3){
+                console.log(n);
+                n++;
+            }
+
+            //for迴圈
+            for(let n=0;n<3;n++){
+                console.log(n);
+            }
+
+            //練習 while
+            /*
+            let x=0;
+            while(x<5){
+                console.log(x);
+                x++;
+            }
+            */
+
+            //for迴圈
+            /*
+            for(n=0;n<10;n++){
+                console.log(n);
+            }
+            */
+        
+            //計算1+2+3+...+10的結果
+            let sum=0; //用來把n累加
+            for(n=1;n<=10;n++){
+                sum+=n;
+            }
+            console.log(sum);
+
+            //while寫法
+            let result=0;
+            x=1;
+            while(x<=10){
+                result+=x;
+                x++
+            }
+            console.log(result);
+        </script>
+    </body>
+</html>

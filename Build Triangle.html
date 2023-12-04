@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>JavaScript 運算符號</title>
+    </head>
+    <body>
+        <script>
+         function buildTriangle(height){
+            var triangleArea="";
+            function makeLine(length) {
+            var line = "";
+            for (var j = 1; j <= length; j++) {
+                line += "* ";
+            }
+            return line + "\n";
+            }
+                for(var x=0;x<=height;x++){
+                    triangleArea+=makeLine(x);
+                }
+            return triangleArea;
+        }
+        console.log(buildTriangle(6));
+        </script>
+    </body>
+</html>

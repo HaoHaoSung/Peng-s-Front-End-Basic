@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>JavaScript 函數回傳值</title>
+    </head>
+    <body>
+        <script>
+        /*用法:
+            function 函式名稱(參數名稱列表){
+                函式內部程式區塊
+                return (回傳值);  //若沒回傳值, 則回傳undefined. 等於函數自然結束.
+            }
+        */
+
+        /*
+        //練習
+        function test(){
+            console.log("Hello");
+            return;
+        }
+
+        let value=test();
+        console.log(value);
+        */
+
+        function divide(n1,n2){
+            let result=n1/n2;
+            return result;
+        }
+
+        console.log(divide(4,2));
+        </script>
+    </body>
+</html>

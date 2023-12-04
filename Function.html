@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>JavaScript 函式</title>
+    </head>
+    <body>
+        <script>
+            //建立函式
+            function test(){
+                console.log("Hello");
+            }
+
+            //呼叫函式
+            test();
+            test();
+        
+            //建立函式
+            function show(msg){
+                console.log(msg);
+            }
+
+            //呼叫函式
+            show("Hello");
+            show("你好");
+            show(true);
+
+
+            //建立函式 參數間用逗號隔開
+            function add(n1,n2){
+                let result=n1+n2;
+                console.log(result);
+            }
+
+            //呼叫函式
+            add(3,4);
+            add(10,-5);
+            add("Hello","World");
+
+
+            //建立函式的另一種寫法
+            /*
+            let 函式名稱=function(參數名稱列表){
+                函式內部程式區塊
+            }
+            */
+
+            //建立函式
+            let show1=function(msg){
+                console.log(msg);
+            }
+
+            //呼叫函式
+            show1("Hello");
+            show1("你好");
+            show1(true);
+
+            /*
+            //函式練習
+            function test1(){
+                console.log("Hello");
+                console.log("World");
+            }
+
+            //呼叫函式
+            test1();
+            */
+
+            /*
+            //印出任意的資料
+            function show2(message){
+                console.log(message);
+            }
+
+            show2("你好");
+            show2("Hello World!");
+            */
+
+            //做除法 *若字串相除 會顯示NaN: Not a Number.
+            function divide(a1,a2){
+                let result=a1/a2;
+                console.log(result);
+            }
+
+            divide(10,3);
+            divide(100,9);
+
+            //用另一種寫法做除法函式
+            let divide2=function(b1,b2){
+                let result=b1/b2;
+                console.log(result);
+            }
+
+            divide2(5,3);
+            divide2(100,3);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>JavaScript 運算符號</title>
+    </head>
+    <body>
+        <script>
+            /*
+           //算術運算: +, -, *, /, %
+            let x=7%3; //7除以3的餘數
+            console.log(x);
+            x+1;
+            console.log(x); //會印出什麼? 1, 因為還未賦值.
+            x=x+1; //也可寫成 x+=1;
+            console.log(x); //賦值後印出2
+            x-=4;
+            console.log(x);
+
+
+            //比較運算: >, <, >=, <=, ==
+            x=3>4;//判斷為錯誤
+            console.log(x);//印出false
+
+            x=3<4;//判斷為正確
+            console.log(x);//印出true
+
+            x=4==4;//判斷為正確
+            console.log(x);//印出true
+
+            x="Hello"=="Test";//判斷為錯誤
+            console.log(x);//印出false
+
+
+            //單元運算: !, ++, --
+            x=!x;//x在上面為false, !x會轉成true 後賦值給x
+            console.log(x);//故會印出true
+            
+            x=3;
+            x++; //也可寫成x+=1 or x=x+1;
+            console.log(x);//印出4
+
+            //邏輯運算: &&, ||  針對"布林值"做運算
+            let test=true&&true;
+            console.log(test);//印出true
+
+            test=true&&false; //只要有一邊不成立
+            console.log(test);//就會印出false
+
+            test=true||false; //只要有一邊成立
+            console.log(test);//就會印出true
+            */
+
+            //讓使用者輸入兩個數字, 得到乘法的結果
+            //要求使用者輸入: prompt(字串,字串), [回傳] 使用者的輸入
+            let n1=prompt("請輸入一個數字","");//變數n1=指令回傳的資料
+            let n2=prompt("請輸入第二個數字","");//變數名稱=n2
+            let result=n1*n2;
+            console.log(result);
+
+        </script>
+    </body>
+</html>
